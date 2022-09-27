@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+c = int(input())
+print(a if (a>b) and (a>c) else (b if b>c else c))a = int(input())
+b = int(input())
+c = int(input())
+print(a if (a>b) and (a>c) else (b if b>c else c))
