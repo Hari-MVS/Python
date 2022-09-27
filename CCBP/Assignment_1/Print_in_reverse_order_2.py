@@ -1,0 +1,5 @@
+s = input()
+p = input()
+print(p)
+print("---")
+print(s)
