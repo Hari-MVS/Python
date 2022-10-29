@@ -9,3 +9,15 @@ for i in range(total+1):
         if j < int(m) and i - j < int(n):
             print(matrix[j][i - j], end=" ")
     print()
+
+    
+    
+
+# rw_cl=m+n-1
+# new=[]
+# for i in range(rw_cl):
+# 	new.append([])
+# for i in range(m):
+# 	for j in range(n):
+# 		new[i+j].append(matrix[i][j])
+# print(new)    
