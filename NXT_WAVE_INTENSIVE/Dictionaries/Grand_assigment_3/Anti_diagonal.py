@@ -1,12 +1,12 @@
-m,n=input().split()
+m,n=[int(i) for i in input().split()]
 matrix=[]
-for i in range(int(m)):
+for i in range(m):
     matrix.append([int(i) for i in input().split()])
 
-total = int(m) + int(n) - 2
+total = m + n - 2
 for i in range(total+1):
     for j in range(i+1):
-        if j < int(m) and i - j < int(n):
+        if j < m and i - j < n:
             print(matrix[j][i - j], end=" ")
     print()
 
