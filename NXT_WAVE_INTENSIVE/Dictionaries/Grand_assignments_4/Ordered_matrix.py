@@ -1,6 +1,4 @@
-m,n=input().split()
-m=int(m)
-n=int(n)
+m,n=[int(i) for i in input().split()]
 mat=[int(j) for i in range(m) for j in input().split()]
 mat=sorted(mat)
 res=[]
