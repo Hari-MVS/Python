@@ -1,6 +1,4 @@
-r,c=input().split()
-r=int(r)
-c=int(c)
+r,c=[int(i) for i in input().split()]
 mat=[]
 for i in range(r):
     temp=[]
