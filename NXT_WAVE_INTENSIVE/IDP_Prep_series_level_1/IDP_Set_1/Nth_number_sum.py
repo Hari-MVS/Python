@@ -1,6 +1,4 @@
-n,m=input().split()
-n=int(n)
-m=int(m)
+n,m=[int(i) for i in input().split()]
 val=[int(i) for i in input().split()]
 sum=0
 for i in range(1,m+1):
